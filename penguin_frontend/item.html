@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">  
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!--style sheets-->
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu:bold' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="images/loginLogo.jpg">
+    <link rel="stylesheet" href="css/commonStyles.css">
+    <link rel="stylesheet" href="css/item.css">
+    <!--style sheets ends-->
+    <title>Item</title> 
+  </head>
+  <body>
+      
+        <!--navigation bar-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <a class="navbar-brand"href="home.html"><img src="images/penguin_logo_nav.png"><b>Paul's</b> Penguin Empire</a>
+            <div class="collapse navbar-collapse pull-right" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="shop.html">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services/Services.html">Services</a>
+                    </li>
+                    <li class="nav-item dropdown hover">
+                        <a class="nav-link dropdown" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Connect 
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="contact.html">Contact</a>
+                            <a class="dropdown-item" href="Directions.html">Direction</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="button" id = "cart" href="#" title="cart"><i class="fa fa-cart-plus fa-2x"></i>
+                            <div class="cartItemsCount"></div>
+                        </a>
+                        <input type="hidden" value="0" id='cartVlaueHidden'>
+                    </li>
+                    <li class="nav-item">
+                        
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!--end of navigation bar-->
+    
+        <!--band-->
+        <footer id="main-footer">
+            <h3>Free shipping on all US orders!</h3>
+        </footer>
+        <!--end of band-->
+
+        <!--Each product display-->
+        <div class="container-fluid">
+            <div class="feature-content">
+                <div class="row" id="itemInfoPage">
+                    <!--div to display image in item page-->
+                    <div class="col-lg-5 offset-lg-1" id="itmImageDiv">   
+                    </div>
+                    <div class="col-lg-4 offset-lg-1">
+                        <!--div to display item Name and description-->
+                        <div id="itmDetailsDiv">
+                        </div>
+                        <!--div to display +/- item count-->
+                        <div class="input-group">
+                            <span class="input-group-btn">
+                                <button class="btn btn-white btn-minuse" type="button">-</button>
+                            </span>
+                            <input type="text" id ="itmQuantity" class="form-control no-padding add-color text-center height-25" maxlength="3" value="1">
+                            <span class="input-group-btn">
+                                <button class="btn btn-red btn-pluss" type="button">+</button>
+                            </span>
+                        </div>
+                        <!--div for Product price and "Add to Cart" option -->
+                        <div id="addToCartBtn">
+                        </div>
+                        <div class="keepShopping">
+                            <a href="shop.html">Continue Shopping</a>
+                        </div>
+                    </div>
+                </div>
+                <!--div for shopping cart-->
+                <div id="checkoutPage" style="display: none;">
+                    <div id="myshoppingcart">
+                        <table class="table" id="cartTable">
+                        </table>
+                    </div>
+                    <div class="emptyCartMsg"></div>
+                    <div id='naviagteAway'>
+                        <a btn class="btn btn-secondary" href="shop.html" >Continue Shopping</a>  
+                        <a id="btnCheckout" class="btn btn-secondary" data-toggle="modal" data-target="#loginDialog" href="#" >Checkout</a>            
+                    </div>
+                    
+                    <!--Checkout page , hidden at first, displayed when clicked on cart-->
+                    <div class="modal fade" id="loginDialog" tabindex="-1" role="dialog" aria-labelledby="#loginTitle" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="loginTitle">Checking out?</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Cancel">
+                                        <span aria-hidden="true">×</span>
+                                        </button>
+                                    </div>
+
+                                    <div class="modal-body">
+                                        <div id="usrLogo">
+                                            <img src="images/loginLogo.jpg">
+                                        </div>
+                                        <div style="margin-top: 5%; text-align:center;" class="wrapper">     
+                                                
+                                                <h6>Items in your cart will be removed and you will be redirected shopping page.</h6>    
+                                        </div>
+                                    </div>
+                                    <!--not needed-->
+                                    <div class="modal-footer">
+                                        <div style="display:none;" class="msgInfo"></div>
+                                        <button type="button" class="btn btn-secondary" id="confirmCheckout" data-dismiss="modal">Ok</button>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end of product display-->
+
+        <!--footer-->
+        <footer class = "content" id="main-footer">
+            <a class = "button" href="https://www.facebook.com/The-Penguin-Empire-293618060921/" title="Facebook"><i class="fa fa-facebook-official fa-2x"></i></a>
+            <a class = "button" href="https://twitter.com/penguinempire/status/972472774328401921" title="Twitter"><i class="fa fa-twitter fa-2x"></i></a>
+            <a class = "button" href="https://www.youtube.com/watch?v=ZyBiiWwBbTg" title="youtube"><i class="fa fa-youtube-square fa-2x"></i></a>
+            <a class = "button" href="https://www.pinterest.com/arttrek/penguin-craft-ideas/?lp=true" title="Pinterest"><i class="fa fa-pinterest-p fa-2x"></i></a>
+            <a class = "button" href="https://www.instagram.com/penguins/?hl=en" title="Instragram"><i class="fa fa-instagram fa-2x"></i></a>
+            <br>
+            &COPY; Paul's Penguin Empire
+        </footer>
+        <!--footer ends-->
+
+        <!--scriptlinks-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script src="js/item.js"></script>
+        <script src="js/common.js"></script>
+        <!--scriptlink ends>
+  </body>
+</html>

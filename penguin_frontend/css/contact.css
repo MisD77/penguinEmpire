@@ -1,0 +1,40 @@
+h2{
+  color: #262F36;
+}
+
+div.p {
+  text-align: center;
+}
+
+p{
+  font-size: 14px;
+}
+.round{
+border-radius: 50%;
+}
+
+#title{
+  color:#262F7C;
+  font-family: 'Courier New', Courier, monospace;
+  text-align:center;
+}
+
+#pic{
+  width: 100%;
+  align-content: center;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: -20px;
+}
+
+.w3-padding-64
+{
+  padding-bottom: 20px;
+}
+
+.line{
+  background:#262F7C;
+  width: 100%;
+  padding: 70px;
+}
+  

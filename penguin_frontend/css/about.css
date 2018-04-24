@@ -1,0 +1,49 @@
+
+section{
+    padding: 20px;
+}
+
+#aboutus{
+    padding-top: 100px;
+    background-image: url("../images/1.jpg");
+    background-attachment: fixed;
+    margin: 0px;
+    height: 70%;
+
+}
+
+h1, h2, h3, h4, p{
+    color: #262f36!important;
+}
+
+.rounded-circle {
+    border-radius: 53%!important;
+    height: 200px;
+    width: 200px;
+    border: 5px #CCC solid;
+    margin-left: -60px;
+    margin-top: -8px;
+}
+.timeline-image{
+    border :none !important;
+    background: none !important;
+}
+.timeline>li .timeline-image{
+    width:221px !important;
+    height: 200px;
+}
+
+.timeline-image h4{
+    /*background: #262f36;*/
+    background-image: url("../images/home.jpg");
+    padding: 50px 20px;
+    margin-left: -16px;
+    color: white!important;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 18px!important;
+}
+
+footer{
+    margin-top: 5%;
+}

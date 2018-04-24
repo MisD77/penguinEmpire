@@ -1,0 +1,42 @@
+h2{
+color: #262F36;
+}   
+
+
+p{
+font-size: 12px;
+}
+
+
+h4{
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+word-spacing: 5px;
+color: indigo;
+}
+
+.line{
+background:#262F7C;
+width: 100%;
+padding: 70px;
+}
+
+
+.em{
+padding: 20px;
+width: 100%;
+}
+
+.em img{
+    height: 300px;
+}
+
+h2{
+    text-align: center;
+    padding: 30px;
+    padding-bottom: 5px;
+}
+
+iframe{
+    margin: 20px;
+    float: right;
+}

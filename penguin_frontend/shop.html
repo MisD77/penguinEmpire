@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">  
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta id="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--style sheets-->
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu:bold' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="images/loginLogo.jpg">
+    <link rel="stylesheet" href="css/commonStyles.css">
+    <link rel="stylesheet" href="css/shop.css">
+    <!--style sheets ends-->
+    <title>Shop Us</title> 
+  </head>
+  <body>
+
+    <!--navigation bar-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <a class="navbar-brand"href="home.html"><img src="images/penguin_logo_nav.png"><b>Paul's</b> Penguin Empire</a>
+        <div class="collapse navbar-collapse pull-right" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="About.html">About</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="shop.html">Shop</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="services/Services.html">Services</a>
+                </li>
+                <li class="nav-item dropdown hover">
+                    <a class="nav-link dropdown" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Connect 
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="contact.html">Contact</a>
+                    <a class="dropdown-item" href="Directions.html">Direction</a></div>
+                </li>
+                <li class="nav-item">
+                        <a class="button" id = "cart" href="#" title="cart"><i class="fa fa-cart-plus fa-2x"></i>
+                            <div class="cartItemsCount"></div>
+                        </a>
+                        <input type="hidden" value="0" id='cartVlaueHidden'>
+                </li>
+                <li class="nav-item">
+                    
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--end of navigation bar-->
+
+    <!--footer-->
+    <footer id="main-footer">
+        <h3 id="notLogged">Free shipping on all US orders!</h3>
+        <h3 id="logged"></h3>
+    </footer>
+
+    <!--shopping cart test-->
+    <div id="products-list">
+        <table class="table table-bordered" id="shopping-list">
+        </table>
+    </div>
+    <!--end of shopping cart test-->
+
+    <!--footer-->
+    <footer class = "content" id="main-footer">
+            <a class = "button" href="https://www.facebook.com/The-Penguin-Empire-293618060921/" title="Facebook"><i class="fa fa-facebook-official fa-2x"></i></a>
+            <a class = "button" href="https://twitter.com/penguinempire/status/972472774328401921" title="Twitter"><i class="fa fa-twitter fa-2x"></i></a>
+            <a class = "button" href="https://www.youtube.com/watch?v=ZyBiiWwBbTg" title="youtube"><i class="fa fa-youtube-square fa-2x"></i></a>
+            <a class = "button" href="https://www.pinterest.com/arttrek/penguin-craft-ideas/?lp=true" title="Pinterest"><i class="fa fa-pinterest-p fa-2x"></i></a>
+            <a class = "button" href="https://www.instagram.com/penguins/?hl=en" title="Instragram"><i class="fa fa-instagram fa-2x"></i></a>
+            <br>
+            &COPY; Paul's Penguin Empire
+    </footer>
+    <!--footer ends-->
+
+    <!--scriptlinks-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="js/shop.js"></script>
+    <script src="js/common.js"></script>
+    <!--scriptlink ends-->
+  </body>
+</html>

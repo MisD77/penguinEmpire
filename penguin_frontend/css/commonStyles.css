@@ -1,0 +1,243 @@
+/* common styles for all pages */
+
+html, 
+body {
+    height: 100%;
+}
+
+.nav-item:hover a{
+    color: #007bff!important;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    color: #262F36;
+}
+
+.btn-success{
+    background-color: transparent;
+    border-color:#fff;
+}
+
+.btn-success:hover{
+    color: white;
+    font-weight: bold;
+    background-color:#9cc4ea;
+    font-weight: bold;;
+    border-color: #9cc4ea;
+}
+
+.list-inline{
+    background-color: #ccc;
+    margin: 10px;
+    padding: 8px;
+}
+
+.navbar{
+    letter-spacing: 2px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    padding: 8px 6px;
+    background-color: white;
+}
+
+.navbar-light .navbar-nav .nav-link, .dropdown-item {
+    color: #262F7C;
+    padding: 12px 10px;
+    font-weight: bold;
+    font-size: smaller;
+    font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+    font-size: 12pt;
+
+}
+
+.dropdown-item{
+    color: #262F7C!important;
+    font-size: 10px!important;
+    padding: 12px 6px;
+    font-weight: bold!important;
+    font-size: smaller;
+}
+
+.dropdown-menu {
+    border: none!important;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.navbar-brand{
+    font-weight: 1rem;
+}
+
+h1, h2, h4, h5 {
+    color: #fff;
+}
+
+h3{
+    color: white;
+    font-family:Courier New;
+    font-size: 24px;
+}
+
+h6 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+.blockquote {
+    font-size: 1.6rem;
+    color: #333;
+    border: none;
+    padding: 0;
+}
+
+.btn-outline-secondary {
+    border-color:#fff;
+    color: #fff;
+}
+
+.btn-secondary {
+    background-color: #262F7C;
+    border-color: #262F7C;
+}
+
+.btn-secondary:hover {
+    background-color: #9cc4ea;
+    border-color: #9cc4ea;
+}
+
+#login-signup {
+    background-color: #262F7C;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+/* Footer styles*/
+
+#main-footer{
+    background: #262F7C;
+    color:white;
+    padding: 2rem 0;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    align-content: center;
+}
+
+
+.button{
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color:white;
+    background-color: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    border-radius: 5px;
+}
+
+#cart{
+    color: #262F7C;
+    position: relative;
+}
+
+.cartItemsCount{
+    background: #dc3568;
+    color: white;
+    padding: 0px 5px 1px 6px;
+    border-radius: 13px;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.cartItemsCount:empty
+{
+   padding:0;
+}
+
+.navbar-nav li:last-child{
+    margin-left: 10px;
+}
+
+#btnLogout
+{
+    font-size: small;
+    margin-left: 10px;
+    color: #333;
+    padding: 5px;
+    border: 1px solid #ced4da;
+    border-radius: 3px;
+}
+#btnLogout:hover{
+    background-color: #b0206a;
+    color:#FFF;
+    cursor: pointer;
+    border: 1px solid #b0206a;
+}
+
+/*Style for logged in user */
+#usrInfo{
+    font-family: sans-serif;
+    letter-spacing: normal;
+    font-weight: bold;
+    color: #b0206a;
+    padding: 11px;
+    font-size: 1.2em;
+    border-left: 1px solid;
+}
+#usrInfo img{
+    max-width: 25px;
+    margin-right: 5px;
+}
+.navbar-nav li:last-child{
+    margin-left: 10px;
+}
+#loginTitle{
+    font-weight: bold;
+    color:#dc3568 !important;
+    font-family: 'Courier New', Courier, monospace;
+}
+.modal-body .form-control{
+    margin: 10px;
+    height: 50px;
+    max-width: 95%;
+    font-weight: bold;
+}
+#usrLogo{
+    text-align: center;
+}
+#usrLogo img{
+    max-width: 17%;
+}
+.msgInfo{
+    color: #bd2130;
+    font-weight: bold;
+    font-family: Courier;
+    font-size: .9em;
+}
+
+.modal-footer{
+    border-top:none;
+}
+
+.modal-footermsg{
+    padding: 20px;
+    border-top: 1px solid #eee;
+}

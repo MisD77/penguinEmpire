@@ -1,0 +1,94 @@
+
+#stage {
+    background-image: url("../images/home1.jpg");
+    background-size: cover;
+    background-attachment: scroll;
+    color: white;
+    height: 67%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#stage-caption {
+    font-size: 1.2rem;
+    max-width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#stage-caption h1 {
+    color: white;
+    letter-spacing: 0.016129em;    
+}
+
+.feature-content{
+    padding: 5rem;
+    overflow: hidden;
+}
+
+.feature-dark {
+   /* background: #262F36;*/
+   background-color: #262F7C;
+    color: white;
+}
+
+.feature-dark h2 {
+    color: white;
+}
+
+.feature-alt {
+    background: #f0f0f0;
+}
+
+#feature-four .feature-content {
+    padding: 0%;
+}
+
+#feature-four .feature-content img{
+    margin-left: 70px;
+}
+
+.col-lg-6 .hidden-md-down {
+    position: relative;
+    text-align: center;
+}
+
+#feature-six .col-lg-6{
+    background-color:#262F36;
+    margin: 10px;
+    opacity: .9;
+}
+
+.jumbotron{
+    background-image: url("../images/home.jpg");
+    color: white;
+    background-attachment: fixed;
+    margin: 0px;
+    height: 180%;
+}
+
+.jumbotron h2{
+    color: #fff;
+}
+
+#band h2{
+    color: #23427f;
+}
+/* Media Queries*/
+
+@media screen and ( min-width: 991px )
+ {
+
+    .feature-content .row   {
+        display: flex;
+        align-items: center;
+    }
+    .carousel-indicators li {
+        border-radius: 12px;
+        width: 12px;
+        height: 12px;
+        background-color: #fff;
+    }
+    
+}

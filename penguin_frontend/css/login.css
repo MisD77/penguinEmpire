@@ -1,0 +1,17 @@
+#loginTitle{
+    font-weight: bold;
+    color:#dc3568 !important;
+    font-family: 'Courier New', Courier, monospace;
+}
+.modal-body .form-control{
+    margin: 10px;
+    height: 50px;
+    max-width: 95%;
+    font-weight: bold;
+}
+#usrLogo{
+    text-align: center;
+}
+#usrLogo img{
+    max-width: 17%;
+}

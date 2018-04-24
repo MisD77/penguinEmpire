@@ -1,0 +1,124 @@
+body {
+    padding-top: 70px;
+}
+
+.container-fluid{
+    min-height: 100%;
+}
+
+#itmDetailsDiv h3, #addToCartBtn h3{
+    color:#bd2130;
+    font-weight: bold;
+}
+
+#itmDetailsDiv h4{
+    color:#272f7b;
+}
+
+#itmDetailsDiv
+{
+    padding-top: 4%;
+}
+
+.addToCart{
+    color:#fff;
+    background-color: #262F7C;
+    padding:12px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+.addToCart:hover{
+    background-color: #007bff;;
+    cursor: pointer;
+    transition: background-color .5s ease;
+}
+
+#itmImageDiv{
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    margin-top: 2%;
+}
+
+.input-group{
+    margin-bottom: 10%;
+    width:120px;
+}
+
+.input-group input{
+    font-weight: bold;
+}
+
+.btn-minuse,.btn-pluss{
+    background-color: #eee;
+    border-radius: 0;
+    font-size: 1.3em;
+    font-weight: bold;
+    border: 1px solid #ddd;
+    border-right: none;
+    outline: none;
+
+}
+
+#cartMessage{
+    margin-left: 20px;
+    font-weight: bold;
+    color:#dc3568 !important;
+}
+
+#myshoppingcart{
+    padding:5%;
+}
+
+.cartImg{
+    width:80px;
+    height: 80px;
+}
+
+.cartItmLabel{
+    font-weight: bold;
+    color:#262F7C;
+}
+
+.deleteItem{
+    color:#bbb;
+    font-weight: bold;
+}
+.deleteItem:hover{
+    cursor: pointer;
+    color:#dc3568;
+}
+
+.emptyCartMsg
+{
+    text-align: center;
+    color: #bd2130;
+    font-weight: bold;
+    font-family: Courier New;
+    font-size: 24px;
+}
+
+#naviagteAway{
+    width:90%;
+    margin: auto;
+    text-align: right;
+    margin-bottom: 2%;
+}
+
+.keepShopping{
+    display: block;
+    margin-top: 20%;
+    width: 120%;
+    padding: 5%;
+    background: #f2f2f2;
+    text-align: right;
+    border-radius: 5px;
+}
+
+.keepShopping a{
+    font-weight: bold;
+    color:  #bd2130;
+}
+
+.hideHtml{
+    display: none;
+}
+

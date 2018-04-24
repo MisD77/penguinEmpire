@@ -1,0 +1,57 @@
+/*
+#serviceImage img
+{
+    width: 350px!important;
+    height: 200px!important;
+}
+
+h4, h2, p, h3{
+    margin-left: 10px;
+    color: black;
+}
+
+h3{
+    font-family:Courier New;
+    font-size: 24px;
+}
+*/
+
+#stage{
+    background-image: url("4.jpg");
+    background-size: cover;
+    background-attachment: scroll;
+    color: white;
+    height: 75%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.w3-blue{
+    background-color: #262F7C!important;
+}
+
+.col-lg-12 .text-center{
+    margin-bottom: 4%;
+}
+
+#serviceimage{
+    text-align: center;
+}
+.rounded-circle{
+    margin-left: 0 !important;
+    margin-bottom: 5% !important;
+}
+
+h3{
+    font-family:'Courier New', Courier, monospace;
+}
+
+#pricing{
+    margin-top: 30px;
+}
+
+.w3-xlarge{
+    color: white!important;
+    font-weight: bold;
+}

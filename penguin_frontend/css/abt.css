@@ -1,0 +1,78 @@
+h2{
+    color: #262F36;
+
+}
+
+div.p {
+text-align: center;
+}
+
+#footer_div{ color: white;
+align-content: center;
+text-align: center;
+}
+
+p{
+    font-size: 12px;
+}
+
+.round{
+border-radius: 50%;
+}
+
+.p{
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 17px;
+font-style: oblique;
+text-align: center;
+word-spacing: 5px;
+color: indigo;
+border-style: dotted solid dotted solid;
+background-color: white;
+}
+
+.line{
+background:#262F7C;
+width: 100%;
+padding: 40px;
+}
+
+.par{
+font-size: 16px;
+text-align: center;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: #262F7C;
+}
+
+.par2{
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-size: 14px;
+font-style:inherit;
+color:	#2F4F4F;
+
+}
+
+#t{
+font-family: 'Alegreya SC';
+color: #00008B;
+font-style: italic;
+}
+
+#title{
+color:#262F7C;
+font-family: 'Courier New', Courier, monospace;
+text-align:center;
+}
+
+.love{
+font-size: 14px;
+font-family: 'Courier New', Courier, monospace;
+color: 	#00008B;
+}
+
+
+.w3-xlarge{
+    color: white!important;
+    margin-top: 40px;
+    font-weight: bold;
+}

@@ -1,0 +1,42 @@
+/* styles for shop.html */
+body {
+    padding-top: 70px;
+}
+
+table{
+    margin: auto;
+    width: 90%;
+    table-layout: fixed;
+}
+
+table image{
+    width: 50%;
+}
+
+figcaption{
+    margin:1%;
+}
+
+figcaption h3{
+    color:#005395 !important;
+    font-weight: bold;
+}
+
+.buyNow{
+    color:#fff;
+    background-color: #262F7C;
+    padding:10px;
+    border-radius: 3px;
+    display: inline;
+}
+
+.buyNow:hover{
+    background-color:  #007bff;
+    cursor: pointer;
+}
+
+@media (max-width: 979px) {
+body {
+    padding-top: 0px;
+    }
+}
